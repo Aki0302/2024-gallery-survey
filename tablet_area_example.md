@@ -16,4 +16,8 @@ hawku, Devocub<br><br><br>
 
 ![](https://github.com/Aki0302/2024-gallery-survey/raw/main/images/otd.png)
 
-OTD
+OTD<br><br><br>
+
+![](https://github.com/Aki0302/2024-gallery-survey/raw/main/images/otd_filter.png)
+
+OTD 필터
