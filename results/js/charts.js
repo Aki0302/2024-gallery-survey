@@ -755,7 +755,10 @@ function drawRankingPlayTimeScatterChart() {
         color: "green",
       },
     },
-    vAxis: { direction: -1 },
+    vAxis: {
+      direction: -1,
+      scaleType: 'log'
+    },
   };
 
   const chart = new google.visualization.ScatterChart(
@@ -898,7 +901,10 @@ function drawRankingPlayTimeUnderSixDigitScatterChart() {
         color: "green",
       },
     },
-    vAxis: { direction: -1 },
+    vAxis: {
+      direction: -1,
+      scaleType: 'log'
+    },
   };
 
   const chart = new google.visualization.ScatterChart(
@@ -1088,7 +1094,10 @@ function drawRankingPlayStartDateScatterChart() {
         { v: 1, f: "2024" },
       ],
     },
-    vAxis: { direction: -1 },
+    vAxis: {
+      direction: -1,
+      scaleType: 'log'
+    },
   };
 
   const chart = new google.visualization.ScatterChart(
@@ -1252,7 +1261,10 @@ function drawRankingPlayStartDateUnderSixDigitScatterChart() {
         { v: 1, f: "2024" },
       ],
     },
-    vAxis: { direction: -1 },
+    vAxis: {
+      direction: -1,
+      scaleType: 'log'
+    },
   };
 
   const chart = new google.visualization.ScatterChart(
@@ -1712,7 +1724,10 @@ function drawRankingHitsPerPlayScatterChart() {
         color: "green",
       },
     },
-    vAxis: { direction: -1 },
+    vAxis: {
+      direction: -1,
+      scaleType: 'log'
+    },
   };
 
   const chart = new google.visualization.ScatterChart(
@@ -1855,7 +1870,10 @@ function drawRankingHitsPerPlayUnderSixDigitScatterChart() {
         color: "green",
       },
     },
-    vAxis: { direction: -1 },
+    vAxis: {
+      direction: -1,
+      scaleType: 'log'
+    },
   };
 
   const chart = new google.visualization.ScatterChart(
