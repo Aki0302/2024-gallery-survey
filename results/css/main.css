@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("../fonts/NEXON\ Lv1\ Gothic\ OTF.eot");
+  src: url("../fonts/NEXON\ Lv1\ Gothic\ OTF.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/NEXON\ Lv1\ Gothic\ OTF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.eot");
+  src: url("../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/NEXON\ Lv1\ Gothic\ OTF\ Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* 툴팁 깜빡임 방지 */
+svg > g > g:last-child {
+  pointer-events: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.hidden-link {
+  color: black;
+}
+
+.hidden-link:hover,
+.hidden-link:focus {
+  text-decoration: none;
+}
+
+p {
+  font-size: max(1.4rem, min(2.2vw, 1.8rem));
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+summary {
+  font-size: max(1.4rem, min(2.2vw, 1.8rem));
+  width: max-content;
+}
+
+ol {
+  list-style: none;
+  font-size: max(1.4rem, min(2.2vw, 1.8rem));
+  line-height: 3.75vh;
+  padding-inline-start: 2vw;
+}
+
+ul {
+  font-size: max(1.4rem, min(2.2vw, 1.8rem));
+  line-height: 4.5vh;
+}
+
+.container {
+  width: 80%;
+  margin: 20vh auto;
+}
+
+.chart {
+  width: 100%;
+  max-width: 1080px;
+  height: 50vh;
+}
+
+.half-width-chart {
+  width: 49%;
+  max-width: 1080px;
+  height: 50vh;
+  display: inline-block;
+}
+
+.half-height-chart {
+  width: 100%;
+  max-width: 1080px;
+  height: 12.5vh;
+}
+
+.quarter-chart {
+  width: 49%;
+  max-width: 1080px;
+  height: 25vh;
+  display: inline-block;
+}
+
+.summary-table-wrapper {
+  display: table;
+  width: 100%;
+  max-width: 1080px;
+  height: 35vh;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.summary-table-row {
+  display: table-row;
+}
+
+.summary-table-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "NEXON Lv1 Gothic OTF";
+  font-weight: bold;
+  font-size: 3.2vmin;
+}
+
+.summary-table-smaller-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "NEXON Lv1 Gothic OTF";
+  font-weight: bold;
+  font-size: max(0.8rem, min(1.8vw, 2.4rem));
+}
+
+.skin-type-table-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "NEXON Lv1 Gothic OTF";
+  font-weight: bold;
+  font-size: 2.75vmin;
+  padding: 1%;
+}
+
+.skin-type-heading {
+  width: 100%;
+  max-width: 1080px;
+  height: 7.5vh;
+  text-align: center;
+  font-family: "NEXON Lv1 Gothic OTF";
+  font-weight: bold;
+  font-size: 3.2vmin;
+}
+
+.back-to-top-button {
+  position: fixed;
+  width: max(4.5rem, min(10vw, 15rem));
+  bottom: 4.5%;
+  right: 4.5%;
+  cursor: pointer;
+}
